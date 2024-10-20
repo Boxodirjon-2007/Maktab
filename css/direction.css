@@ -1,0 +1,83 @@
+/* Yo'nalishlar bo'limi */
+.section5 {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .section5 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .directions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .direction-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .direction-item i {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .direction-item h3 {
+    margin: 10px 0;
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  .direction-item p {
+    color: #666;
+  }
+  
+  .direction-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .section5 h2{
+      font-size: 1.5rem;
+    }
+    .direction-item h3{
+        font-size: 1.3rem;
+    }
+    .direction-item p{
+        font-size: 0.9rem;
+    }
+    .direction-item{
+      width: 60%;
+      margin: 0 auto;
+    }
+}
+
+  @media (max-width: 480px) {
+    .section5 h2{
+      font-size: 1.3rem;
+    }
+    .direction-item {
+        margin: 0 auto;
+    }
+    .direction-item h3{
+        font-size: 1.2rem;
+    }
+    .direction-item p{
+        font-size: 0.8rem;
+    }
+}
+

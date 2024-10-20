@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.til {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.language-switcher {
+    display: inline-block;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    border-radius: 25px; /* Yumshoq burchaklar */
+    color: white;
+    padding: 10px 20px; /* Kengaytirilgan joy */
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+.language-button.active {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soyalar */
+}
+
+.language-button:not(.active):hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effekti */
+}
+
+.custom-slider {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* O'zingizga mos ravishda balandlikni o'zgartiring */
+    margin-top: 20px;
+}
+
+.slide-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.single-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.single-slide.active {
+    opacity: 1;
+}
+
+.text-container {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    border: none;
+    background-color: gray;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: white;
+}
+
+
+.main-nav {
+    background-color: #00796b; /* Teal rang */
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soyalar */
+    text-align: center; /* O'rtaga joylashtirish */
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative; /* Hover effektlari uchun */
+  }
+  
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Tugma qirralarini kengaytirish */
+    border-radius: 5px; /* Yumshoq burchaklar */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transformani qo'shish */
+  }
+  
+  .main-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effekti */
+    color: #ffcc00; /* Hover rang */
+    transform: scale(1.05); /* Hoverda kattalashtirish */
+  }
+  
+  .main-nav a.active {
+    font-weight: bold; /* Qalin harflar */
+    text-decoration: underline; /* Chizish */
+    color: #ffcc00; /* Hover rangiga moslash */
+  }
+  
+  /* Responsiv dizayn */
+  @media (max-width: 768px) {
+    .main-nav li {
+        /* display: block; Har bir bo'limni yangi qatorda joylashtirish */
+        margin: 10px 0;
+    }
+  
+    .main-nav a {
+        padding: 8px 10px; /* Kichik ekranlar uchun qirralar */
+    }
+    @media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .title9 {
+        font-size: 1.5rem;
+    }
+    .directions-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .direction-item {
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.3rem;
+    }
+    .direction-item h3 {
+        font-size: 1.2rem;
+    }
+    .direction-item p {
+        font-size: 1rem;
+    }
+    .title9 {
+        font-size: 1.3rem;
+    }
+}
+  }
+  
+  @media (max-width: 480px) {
+    .main-nav li {
+        margin: 8px 0;
+        font-size: 0.8rem; /* Kichik ekranlar uchun shrift o'lchami */
+    }
+  }
+  /* Responsiv dizayn */
+@media (max-width: 768px) {
+    .language-button {
+        padding: 8px 15px;
+        font-size: 0.9rem; /* Kichik ekranlar uchun shrift o'lchami */
+    }
+}
+
+@media (max-width: 480px) {
+    .language-button {
+        padding: 6px 10px;
+        font-size: 0.8rem; /* Yanada kichik ekranlar uchun shrift o'lchami */
+    }
+}
+  
+  

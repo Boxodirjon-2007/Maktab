@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/direction.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/translate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>  
+    <header class="til">
+        <div class="language-switcher">
+            <button class="language-button active" data-lang="uz" onclick="changeLanguage('uz')">UZ</button>
+            <button class="language-button" data-lang="ru" onclick="changeLanguage('ru')">RU</button>
+            <button class="language-button" data-lang="en" onclick="changeLanguage('en')">EN</button>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html" data-uz="Asosiy" data-ru="Главная" data-en="Main">Asosiy</a></li>
+            <li><a href="lessons.html" data-uz="Darslar" data-ru="Уроки" data-en="Lessons">Darslar</a></li>
+            <li><a href="teachers.html" data-uz="O'qituvchilar" data-ru="Учителя" data-en="Teachers">O'qituvchilar</a></li>
+            <li><a href="directions.html" data-uz="Yo'nalishlar" data-ru="Направления" data-en="Directions">Yo'nalishlar</a></li>
+            <li><a href="photoes.html" data-uz="Fotogalereya" data-ru="Фотогалерея" data-en="Photo Gallery">Fotogalereya</a></li>
+            <li><a href="aloqa.html" data-uz="Aloqa" data-ru="Контакты" data-en="Contact">Aloqa</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="directions" class="section5">
+        <div id="main" class="section">
+            <div class="asos">
+                <h1 class="title" 
+                    data-uz="Andijon viloati Buloqboshi tumani 1-sonli kasb-hunar maktabi" 
+                    data-ru="Андижанская область, район Булокбоши Профессиональная школа №1" 
+                    data-en="Andijan Region, Buloqboshi District Vocational School No. 1" 
+                    style="align-items: center;">
+                    Andijon viloati Buloqboshi tumani <br> 1-sonli kasb-hunar maktabi
+                </h1>
+            </div>
+        </div>
+        <!-- Yo'nalishlar bo'limi uchun ma'lumotlar -->
+        <h2 
+            data-uz="Bizning Yo'nalishlarimiz:" 
+            data-ru="Наши направления:" 
+            data-en="Our Directions:">
+            Bizning Yo'nalishlarimiz:
+        </h2>
+        <div class="directions-container">
+            <div class="direction-item">
+                <i class="fas fa-sewing-machine"></i>
+                <h3 
+                    data-uz="Tikuvchi" 
+                    data-ru="Швея" 
+                    data-en="Sewer">
+                    Tikuvchi
+                </h3>
+                <p 
+                    data-uz="Ayollar va bolalar kiyimini tikuvchisi" 
+                    data-ru="Портной для женской и детской одежды" 
+                    data-en="Women's and children's clothing sewer">
+                    Ayollar va bolalar kiyimini tikuvchisi
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-car-repair"></i>
+                <h3 
+                    data-uz="Avtomobillar kuzovini ta’mirlash" 
+                    data-ru="Ремонт кузова автомобилей" 
+                    data-en="Car Body Repair">
+                    Avtomobillar kuzovini ta’mirlash
+                </h3>
+                <p 
+                    data-uz="Avtomobil kuzovlarini ta’mirlash bo'yicha ko'nikmalar" 
+                    data-ru="Навыки ремонта кузовов автомобилей" 
+                    data-en="Skills in car body repair">
+                    Avtomobil kuzovlarini ta’mirlash bo'yicha ko'nikmalar
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-car"></i>
+                <h3 
+                    data-uz="Avtomobil dvigatellarini tashxizlash" 
+                    data-ru="Диагностика двигателей автомобилей" 
+                    data-en="Car Engine Diagnostics">
+                    Avtomobil dvigatellarini tashxizlash
+                </h3>
+                <p 
+                    data-uz="Avtomobil dvigatellarini tashxizlash va ta’mirlash" 
+                    data-ru="Диагностика и ремонт двигателей автомобилей" 
+                    data-en="Diagnosis and repair of car engines">
+                    Avtomobil dvigatellarini tashxizlash va ta’mirlash
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3 
+                    data-uz="Kompyuter tizimlarini dasturlash" 
+                    data-ru="Программирование компьютерных систем" 
+                    data-en="Computer System Programming">
+                    Kompyuter tizimlarini dasturlash
+                </h3>
+                <p 
+                    data-uz="Kompyuter dasturlarini yaratish va tizimlarni dasturlash" 
+                    data-ru="Создание компьютерных программ и программирование систем" 
+                    data-en="Creating computer programs and programming systems">
+                    Kompyuter dasturlarini yaratish va tizimlarni dasturlash
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-network-wired"></i>
+                <h3 
+                    data-uz="Axborot vositalari mashinalari va kompyuter tarmoqlari" 
+                    data-ru="Оборудование информационных технологий и компьютерные сети" 
+                    data-en="Information Technology Equipment and Computer Networks">
+                    Axborot vositalari mashinalari va kompyuter tarmoqlari
+                </h3>
+                <p 
+                    data-uz="Axborot vositalarini boshqarish va kompyuter tarmoqlarini sozlash" 
+                    data-ru="Управление информационными технологиями и настройка компьютерных сетей" 
+                    data-en="Managing information technology and configuring computer networks">
+                    Axborot vositalarini boshqarish va kompyuter tarmoqlarini sozlash
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-tools"></i>
+                <h3 
+                    data-uz="Payvandlash" 
+                    data-ru="Сварка" 
+                    data-en="Welding">
+                    Payvandlash
+                </h3>
+                <p 
+                    data-uz="Metallarni payvandlash va qurilish ishlari" 
+                    data-ru="Сварка металлов и строительные работы" 
+                    data-en="Welding metals and construction works">
+                    Metallarni payvandlash va qurilish ishlari
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-cogs"></i>
+                <h3 
+                    data-uz="Kompressor qurilmalari mashinisti" 
+                    data-ru="Машинист компрессорных установок" 
+                    data-en="Compressor Equipment Operator">
+                    Kompressor qurilmalari mashinisti
+                </h3>
+                <p 
+                    data-uz="Kompressor qurilmalari va ularning ishlashini boshqarish" 
+                    data-ru="Управление компрессорными установками и их работой" 
+                    data-en="Managing compressor equipment and its operation">
+                    Kompressor qurilmalari va ularning ishlashini boshqarish
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-gas-pump"></i>
+                <h3 
+                    data-uz="Gaz jihozlarini ta’mirlash" 
+                    data-ru="Ремонт газового оборудования" 
+                    data-en="Gas Equipment Repair">
+                    Gaz jihozlarini ta’mirlash
+                </h3>
+                <p 
+                    data-uz="Gaz jihozlarini texnik xizmat ko'rsatish va ta’mirlash" 
+                    data-ru="Техническое обслуживание и ремонт газового оборудования" 
+                    data-en="Technical service and repair of gas equipment">
+                    Gaz jihozlarini texnik xizmat ko'rsatish va ta’mirlash
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-bolt"></i>
+                <h3 
+                    data-uz="Elektromontyor" 
+                    data-ru="Электромонтер" 
+                    data-en="Electrician">
+                    Elektromontyor
+                </h3>
+                <p 
+                    data-uz="Elektr tizimlarini o'rnatish va ta’mirlash" 
+                    data-ru="Установка и ремонт электрических систем" 
+                    data-en="Installation and repair of electrical systems">
+                    Elektr tizimlarini o'rnatish va ta’mirlash
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-tools"></i>
+                <h3 
+                    data-uz="Tokar" 
+                    data-ru="Токарь" 
+                    data-en="Turner">
+                    Tokar
+                </h3>
+                <p 
+                    data-uz="Metallarni ishlash va tokarlik usullari" 
+                    data-ru="Обработка металлов и токарные методы" 
+                    data-en="Metalworking and turning methods">
+                    Metallarni ishlash va tokarlik usullari
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-building"></i>
+                <h3 
+                    data-uz="Bank nazoratchisi" 
+                    data-ru="Наблюдатель банка" 
+                    data-en="Bank Inspector">
+                    Bank nazoratchisi
+                </h3>
+                <p 
+                    data-uz="Bank operatsiyalarini nazorat qilish" 
+                    data-ru="Контроль банковских операций" 
+                    data-en="Monitoring bank operations">
+                    Bank operatsiyalarini nazorat qilish
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-cut"></i>
+                <h3 
+                    data-uz="Sartaroshlik" 
+                    data-ru="Парикмахерское дело" 
+                    data-en="Hairdressing">
+                    Sartaroshlik
+                </h3>
+                <p 
+                    data-uz="Sartaroshlik xizmatlari va uslublari" 
+                    data-ru="Парикмахерские услуги и стили" 
+                    data-en="Hairdressing services and styles">
+                    Sartaroshlik xizmatlari va uslublari
+                </p>
+            </div>
+            <div class="direction-item">
+                <i class="fas fa-chef"></i>
+                <h3 
+                    data-uz="Oshpaz" 
+                    data-ru="Повар" 
+                    data-en="Chef">
+                    Oshpaz
+                </h3>
+                <p 
+                    data-uz="Taomlarni tayyorlash va oshpazlik san’ati" 
+                    data-ru="Приготовление пищи и кулинарное искусство" 
+                    data-en="Food preparation and culinary art">
+                    Taomlarni tayyorlash va oshpazlik san’ati
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <footer id="contact" class="footer">
+        <div class="container">
+          <div class="networking">
+            <h3 data-uz="Biz bilan bog'laning:" data-ru="Свяжитесь с нами:" data-en="Contact Us:">Biz bilan bog'laning:</h3>
+          </div>
+          <div class="contact-info">
+            <ul>
+              <li>
+                <a href="tel:+998975802035" class="phone" onclick="makeCall('+998975802035')">
+                    <i class="fa-solid fa-phone"></i> <span>+998 97 580 20 35</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/buloqboshi_kasb_hunar_maktabi" class="telegram" onclick="openTelegram('buloqboshi_kasb_hunar_maktabi')">
+                    <i class="fa-brands fa-telegram"></i><span data-uz="Bizning telegram guruhimiz" data-ru="Наша группа в Telegram" data-en="Our Telegram Group"> Bizning telegram guruhimiz</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:boxodirjon.maxmudjonovich@gmail.com" class="email" onclick="sendEmail('boxodirjon.maxmudjonovich@gmail.com')">
+                    <i class="fa-solid fa-envelope"></i> <span>boxodirjon.maxmudjonovich@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-owner">
+            <h3>&copy; Boxodirjon Maxamadjonov</h3>
+          </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/directions.js"></script>
+    <script src="js/translate.js"></script>
+</body>
+</html>

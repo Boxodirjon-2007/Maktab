@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/image.css">
+    <link rel="stylesheet" href="css/translate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header class="til">
+        <div class="language-switcher">
+            <button class="language-button active" data-lang="uz" onclick="changeLanguage('uz')">UZ</button>
+            <button class="language-button" data-lang="ru" onclick="changeLanguage('ru')">RU</button>
+            <button class="language-button" data-lang="en" onclick="changeLanguage('en')">EN</button>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html" data-uz="Asosiy" data-ru="Главная" data-en="Main">Asosiy</a></li>
+            <li><a href="lessons.html" data-uz="Darslar" data-ru="Уроки" data-en="Lessons">Darslar</a></li>
+            <li><a href="teachers.html" data-uz="O'qituvchilar" data-ru="Учителя" data-en="Teachers">O'qituvchilar</a></li>
+            <li><a href="directions.html" data-uz="Yo'nalishlar" data-ru="Направления" data-en="Directions">Yo'nalishlar</a></li>
+            <li><a href="photoes.html" data-uz="Fotogalereya" data-ru="Фотогалерея" data-en="Photo Gallery">Fotogalereya</a></li>
+            <li><a href="aloqa.html" data-uz="Aloqa" data-ru="Контакты" data-en="Contact">Aloqa</a></li>
+        </ul>
+    </nav>
+  
+    <div id="photos-videos" class="section">
+        <!-- Fotosuratlar va videolavhalar bo'limi uchun ma'lumotlar -->
+        <div class="media-gallery">
+            <div id="main" class="section">
+                <div class="asos">
+                    <h1 class="title" 
+                        data-uz="Andijon viloati Buloqboshi tumani 1-sonli kasb-hunar maktabi" 
+                        data-ru="Андижанская область, район Булокбоши Профессиональная школа №1" 
+                        data-en="Andijan Region, Buloqboshi District Vocational School No. 1" 
+                        style="align-items: center;">
+                        Andijon viloati Buloqboshi tumani <br> 1-sonli kasb-hunar maktabi
+                    </h1>
+                </div>
+            </div>
+            <h2 data-uz="Fotosuratlar va Videolavhalar" 
+                data-ru="Фотографии и видеозаписи" 
+                data-en="Photos and Videos">Fotosuratlar va Videolavhalar</h2>                     
+            <div class="gallery-section">
+                <h3 data-uz="Sport Jarayonlari" 
+                    data-ru="Спортивные процессы" 
+                    data-en="Sports Processes">Sport Jarayonlari</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/sport6.jpg" alt="Sport Image 1" class="slider-image active">
+                        <img src="images/sport5.jpg" alt="Sport Image 2" class="slider-image">
+                        <img src="images/sport3.jpg" alt="Sport Image 3" class="slider-image">
+                        <img src="images/sport4.jpg" alt="Sport Image 4" class="slider-image">
+                        <img src="videos/sport1.jpg" alt="Sport Image 5" class="slider-image">
+                        <img src="images/sport2.jpg" alt="Sport Image 6" class="slider-image">
+                        <img src="images/sport7.jpg" alt="Sport Image 7" class="slider-image">
+                        <img src="images/sport8.jpg" alt="Sport Image 8" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+    
+            <div class="gallery-section">
+                <h3 data-uz="Saﬂanish va Tadbirlar" 
+                    data-ru="Отборочные мероприятия" 
+                    data-en="Selection and Events">Saﬂanish va Tadbirlar</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/saf1.jpg" alt="Event Image 1" class="slider-image active">
+                        <img src="images/saf2.jpg" alt="Event Image 2" class="slider-image">
+                        <img src="images/saf3.jpg" alt="Event Image 3" class="slider-image">
+                        <img src="images/saf4.jpg" alt="Event Image 4" class="slider-image">
+                        <img src="images/saf5.jpg" alt="Event Image 5" class="slider-image">
+                        <img src="images/saf6.jpg" alt="Event Image 6" class="slider-image">
+                        <img src="images/saf7.jpg" alt="Event Image 7" class="slider-image">
+                        <img src="images/saf8.jpg" alt="Event Image 8" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+            
+            <div class="gallery-section">
+                <h3 data-uz="Xonalar va Jihozlar" 
+                    data-ru="Комнаты и оборудование" 
+                    data-en="Rooms and Equipment">Xonalar va Jihozlar</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/xona1.jpg" alt="Room Image 1" class="slider-image active">
+                        <img src="images/xona2.jpg" alt="Room Image 2" class="slider-image">
+                        <img src="images/xona3.jpg" alt="Room Image 3" class="slider-image">
+                        <img src="images/xona4.jpg" alt="Room Image 4" class="slider-image">
+                        <img src="images/xona5.jpg" alt="Room Image 5" class="slider-image">
+                        <img src="images/xona6.jpg" alt="Room Image 6" class="slider-image">
+                        <img src="images/xona7.jpg" alt="Room Image 7" class="slider-image">
+                        <img src="images/xona8.jpg" alt="Room Image 8" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+            
+            <div class="gallery-section">
+                <h3 data-uz="O'qituvchilar" 
+                    data-ru="Учителя" 
+                    data-en="Teachers">O'qituvchilar</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/oqi1.jpg" alt="Competition Image 1" class="slider-image active">
+                        <img src="images/oqi2.jpg" alt="Competition Image 2" class="slider-image">
+                        <img src="images/oqi3.jpg" alt="Competition Image 3" class="slider-image">
+                        <img src="images/oqi4.jpg" alt="Competition Image 4" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+            
+            <div class="gallery-section">
+                <h3 data-uz="Zakovat O'yinlari va Rassomchilik" 
+                    data-ru="Игры на ум и рисование" 
+                    data-en="Mind Games and Painting">Zakovat O'yinlari va Rassomchilik</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/zak1.jpg" alt="Competition Image 1" class="slider-image active">
+                        <img src="images/zak2.jpg" alt="Competition Image 2" class="slider-image">
+                        <img src="images/zak3.jpg" alt="Competition Image 3" class="slider-image">
+                        <img src="images/zak4.jpg" alt="Competition Image 4" class="slider-image">
+                        <img src="images/zak5.jpg" alt="Competition Image 5" class="slider-image">
+                        <img src="images/zak7.jpg" alt="Competition Image 6" class="slider-image">
+                        <img src="images/zak8.jpg" alt="Competition Image 7" class="slider-image">
+                        <img src="images/zak9.jpg" alt="Competition Image 8" class="slider-image">
+                        <img src="images/zak10.jpg" alt="Competition Image 9" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+            
+            <div class="gallery-section">
+                <h3 data-uz="Tadbirlar va Maxsus Kunlar" 
+                    data-ru="Мероприятия и специальные дни" 
+                    data-en="Events and Special Days">Tadbirlar va Maxsus Kunlar</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/tad1.jpg" alt="Special Event Image 1" class="slider-image active">
+                        <img src="images/tad2.jpg" alt="Special Event Image 2" class="slider-image">
+                        <img src="images/tad3.jpg" alt="Special Event Image 3" class="slider-image">
+                        <img src="images/tad4.jpg" alt="Special Event Image 4" class="slider-image">
+                        <img src="images/tad5.jpg" alt="Special Event Image 5" class="slider-image">
+                        <img src="images/tad6.jpg" alt="Special Event Image 6" class="slider-image">
+                        <img src="images/tad7.jpg" alt="Special Event Image 7" class="slider-image">
+                        <img src="images/tad8.jpg" alt="Special Event Image 8" class="slider-image">
+                        <img src="images/tad9.jpg" alt="Special Event Image 9" class="slider-image">
+                        <img src="images/tad10.jpg" alt="Special Event Image 10" class="slider-image"> 
+                        <img src="images/tad11.jpg" alt="Special Event Image 11" class="slider-image">
+                        <img src="images/tad12.jpg" alt="Special Event Image 12" class="slider-image">
+                        <img src="images/tad13.jpg" alt="Special Event Image 13" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+            
+            <div class="gallery-section">
+                <h3 data-uz="Amaliyot Jarayonlari" 
+                    data-ru="Процессы практики" 
+                    data-en="Practical Processes">Amaliyot Jarayonlari</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/amal1.jpg" alt="Sewing Practice 1" class="slider-image active">
+                        <img src="images/amal2.jpg" alt="Sewing Practice 2" class="slider-image">
+                        <img src="images/amal3.jpg" alt="Welding Practice 1" class="slider-image">
+                        <img src="images/amal4.jpg" alt="Welding Practice 2" class="slider-image">
+                        <img src="images/amal5.jpg" alt="Welding Practice 3" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+            
+            <div class="gallery-section">
+                <h3 data-uz="Diplom va Qabul Yo'nalishlari" 
+                    data-ru="Дипломы и направления приема" 
+                    data-en="Diplomas and Admission Directions">Diplom va Qabul Yo'nalishlari</h3>
+                <div class="slider-container">
+                    <button class="nav-btn prev-btn">&#10094;</button>
+                    <div class="image-container1">
+                        <img src="images/dip1.jpg" alt="Diploma Image 1" class="slider-image active">
+                        <img src="images/dip2.jpg" alt="Diploma Image 2" class="slider-image">
+                    </div>
+                    <button class="nav-btn next-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer id="contact" class="footer">
+        <div class="container">
+          <div class="networking">
+            <h3 data-uz="Biz bilan bog'laning:" data-ru="Свяжитесь с нами:" data-en="Contact Us:">Biz bilan bog'laning:</h3>
+          </div>
+          <div class="contact-info">
+            <ul>
+              <li>
+                <a href="tel:+998975802035" class="phone" onclick="makeCall('+998975802035')">
+                    <i class="fa-solid fa-phone"></i> <span>+998 97 580 20 35</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/buloqboshi_kasb_hunar_maktabi" class="telegram" onclick="openTelegram('buloqboshi_kasb_hunar_maktabi')">
+                    <i class="fa-brands fa-telegram"></i><span data-uz="Bizning telegram guruhimiz" data-ru="Наша группа в Telegram" data-en="Our Telegram Group"> Bizning telegram guruhimiz</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:boxodirjon.maxmudjonovich@gmail.com" class="email" onclick="sendEmail('boxodirjon.maxmudjonovich@gmail.com')">
+                    <i class="fa-solid fa-envelope"></i> <span>boxodirjon.maxmudjonovich@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-owner">
+            <h3>&copy; Boxodirjon Maxamadjonov</h3>
+          </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/image.js"></script>
+</body>
+</html>
